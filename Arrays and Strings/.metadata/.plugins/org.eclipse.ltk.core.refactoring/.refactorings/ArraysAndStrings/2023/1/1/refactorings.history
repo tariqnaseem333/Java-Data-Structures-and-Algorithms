@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;arraysIntroduction.BasicsOfArray.java&apos; to &apos;BasicsOfArrays.java&apos;&#x0D;&#x0A;- Original project: &apos;ArraysAndStrings&apos;&#x0D;&#x0A;- Original element: &apos;arraysIntroduction.BasicsOfArray.java&apos;&#x0D;&#x0A;- Renamed element: &apos;arraysIntroduction.BasicsOfArrays.java&apos;" description="Rename compilation unit &apos;BasicsOfArray.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;arraysIntroduction{BasicsOfArray.java" name="BasicsOfArrays.java" references="false" stamp="1672823175566" version="1.0"/>
+</session>
