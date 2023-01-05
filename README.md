@@ -16,3 +16,11 @@ Problem: Linear Search for an Element in an Array\
 Problem: Arrange numbers in an Array\
 Problem: Print all the pairs of an array\
 Problem: Swap Alternate Elements of an Array
+
+## Day-2: Array Basics
+Problem: Find Unique Element in Array\
+Problem: Find Duplicate Element in Array\
+Problem: Intersection of Two Arrays\
+Problem: Pair Sum\
+Problem: Triplet Sum\
+Problem: Sort Binary Array
