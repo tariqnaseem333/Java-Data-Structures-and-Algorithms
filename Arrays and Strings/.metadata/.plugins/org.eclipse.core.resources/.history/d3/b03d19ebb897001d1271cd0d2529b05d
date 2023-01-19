@@ -10,7 +10,6 @@ public class ArrangeNumbersInArrayAlternative {
 		for( int i = 0; i < n; i++ ) {
 			System.out.print(arr[i] + " ");	
 		}
-		System.out.println();
 	}
 	
     public static void arrange(int[] arr, int n) {

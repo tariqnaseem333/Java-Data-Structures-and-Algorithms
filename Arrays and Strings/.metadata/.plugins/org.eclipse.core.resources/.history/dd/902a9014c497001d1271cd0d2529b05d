@@ -35,7 +35,7 @@ public class PairSum {
 	
 	public static void main(String[] args) {
 		
-//		Pair of elements in array which sum to x
+//		Pair of elememts in array which sum to x
 		
 //		Taking input t test cases
 		Scanner scanner = new Scanner(System.in);

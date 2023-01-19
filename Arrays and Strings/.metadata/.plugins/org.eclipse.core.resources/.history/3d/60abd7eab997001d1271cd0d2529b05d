@@ -26,14 +26,14 @@ public class PrimitiveAndNonPrimitives {
 
 	public static void main(String[] args) {
 		
-//		int i = 10;
-//		increment(i);
-//		System.out.println(i);
+		int i = 10;
+		increment(i);
+		System.out.println(i);
 		
-		int[] arr = { 1, 2, 3, 4, 5 };
-		System.out.println(arr);
-		incrementArray(arr);
-		printArray(arr);
+//		int[] arr = { 1, 2, 3, 4, 5 };
+//		System.out.println(arr);
+//		incrementArray(arr);
+//		printArray(arr);
 
 	}
 

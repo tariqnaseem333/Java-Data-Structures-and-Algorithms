@@ -10,6 +10,7 @@ public class ArrangeNumbersInArray {
 		for( int i = 0; i < n; i++ ) {
 			System.out.print(arr[i] + " ");	
 		}
+		System.out.println();
 	}
 	
     public static void arrange(int[] arr, int n) {
@@ -33,6 +34,8 @@ public class ArrangeNumbersInArray {
     }
 
 	public static void main(String[] args) {
+		
+//		Populate the Array Ex for n=5 : [ 1,3,5,4,2]
 		
 		Scanner scanner = new Scanner(System.in);
 //		t = No. of test cases
