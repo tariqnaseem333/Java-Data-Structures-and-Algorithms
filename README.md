@@ -24,3 +24,7 @@ Problem: Intersection of Two Arrays\
 Problem: Pair Sum\
 Problem: Triplet Sum\
 Problem: Sort Binary Array
+
+## Day-2: Array Algorithms
+1.) Binary Search Algorithm\
+2.) Selection Sort Algorithm
