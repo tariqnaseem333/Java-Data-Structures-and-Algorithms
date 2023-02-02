@@ -28,3 +28,8 @@ Problem: Sort Binary Array
 ## Day-3: Array Algorithms
 1.) Binary Search Algorithm\
 2.) Selection Sort Algorithm
+
+## Day-4: Array Algorithms
+1.) Bubble Sort Algorithm\
+2.) Insertion Sort Algorithm\
+3.) Merge Sort Algorithm
