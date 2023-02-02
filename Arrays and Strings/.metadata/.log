@@ -4065,3 +4065,45 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:21:23.895
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XCvDEUaw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:11.374
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:11.375
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@767aa9a5[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=976)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:11.375
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.002
+!MESSAGE Boot LS startup time from start to initialized: 1625ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.098
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nsdsRzxkisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.099
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.099
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.100
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.101
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.101
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nsdsRzxk => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.102
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.103
+!MESSAGE buffering callback sts4.classpath.nsdsRzxk ArraysAndStrings false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.104
+!MESSAGE executing callback sts4.classpath.nsdsRzxk 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-02 10:24:13.349
+!MESSAGE executing callback sts4.classpath.nsdsRzxk SUCCESS [done]
