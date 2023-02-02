@@ -2,7 +2,7 @@ package arraysAdvanced;
 
 import java.util.Scanner;
 
-public class SelectionSort {
+public class BubbleSort {
 	
 	public static int[] takeInput() {
 //		Taking Input n from the user
@@ -26,24 +26,28 @@ public class SelectionSort {
 		for( int i = 0; i < n; i++ ) {
 			System.out.print(arr[i] + " ");	
 		}
+		System.out.println();
 	}
 	
-    public static void selectionSort(int[] arr) {
-        int min;
-        int temp;
-    	for( int i = 0; i < arr.length-1; i++ ) {
-            min = arr[i];
-            for( int j = i+1; j < arr.length; j++ ) {
-                if( arr[j] < min  ) {
-                    temp = min;
-                    min = arr[j];
-                    arr[j] = temp;
+    public static void bubbleSort(int[] arr){
+    	int length = arr.length - 1;
+        int temp = 0;
+
+        for( int i = 1; i < arr.length; i++ ) {
+
+            for( int j = 0; j < length; j++ ) {
+                if( arr[j] > arr[j+1] ) {
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
                 }
             }
-            arr[i] = min;
+            
+            length--;
         }
-    }   
+    }  
 	
+
 	public static void main(String[] args) {
 		
 //		Taking input t test cases
@@ -52,11 +56,11 @@ public class SelectionSort {
 		
 		while( t > 0 ) {
 			int arr[] = takeInput();
-			selectionSort(arr);
+			bubbleSort(arr);
 			printArray(arr);
 			t--;
 		}
-		
+
 	}
 
 }
