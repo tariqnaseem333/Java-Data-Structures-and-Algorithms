@@ -2,7 +2,7 @@ package arraysAdvanced;
 
 import java.util.Scanner;
 
-public class SecondLargestInArray_Alternative {
+public class CheckArrayRotation {
 	
 	public static int[] takeInput() {
 //		Taking Input n from the user
@@ -20,22 +20,17 @@ public class SecondLargestInArray_Alternative {
 		return arr;
 	}
 	
-    public static int secondLargest(int[] arr) {
-        int n = arr.length;
-        int max = Integer.MIN_VALUE;
-        int secondMax = Integer.MIN_VALUE;
+    public static int checkArrayRotation(int[] arr, int d) {
+    	int n = arr.length;
+        int turns = 0;
 
-
-        for( int i = 0; i < n; i++ ) {
-            if( arr[i] > max ) {
-                secondMax = max;
-                max = arr[i];
-            } else if( arr[i] > secondMax && arr[i] != max) {
-                secondMax = arr[i];
+        for( int i = 0; i < n-1; i++ ) {
+            if( arr[i+1] < arr[i]  ) {
+                turns = i + 1;
+                return turns;
             }
         }
-
-        return secondMax;
+        return turns;
     }   
 	
 	public static void main(String[] args) {
@@ -46,8 +41,9 @@ public class SecondLargestInArray_Alternative {
 		
 		while( t > 0 ) {
 			int arr[] = takeInput();
-			int secLar = secondLargest(arr);
-			System.out.println(secLar);
+			int d = scanner.nextInt();
+			int turns = checkArrayRotation(arr, d);
+			System.out.println(turns);
 			t--;
 		}
 		

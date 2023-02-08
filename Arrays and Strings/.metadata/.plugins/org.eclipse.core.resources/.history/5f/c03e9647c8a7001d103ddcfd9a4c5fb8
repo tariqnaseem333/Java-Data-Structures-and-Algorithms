@@ -2,7 +2,7 @@ package arraysAdvanced;
 
 import java.util.Scanner;
 
-public class SecondLargestInArray {
+public class SecondLargestInArray_Alternative {
 	
 	public static int[] takeInput() {
 //		Taking Input n from the user
@@ -20,34 +20,31 @@ public class SecondLargestInArray {
 		return arr;
 	}
 	
+	public static void printArray(int[] arr) {
+		int n = arr.length;
+//		Printing the elements of an array
+		for( int i = 0; i < n; i++ ) {
+			System.out.print(arr[i] + " ");	
+		}
+		System.out.println();
+	}
+	
     public static int secondLargest(int[] arr) {
-    	 int n = arr.length;
-         int max = Integer.MIN_VALUE;
-         int count = 2;
+        int n = arr.length;
+        int max = Integer.MIN_VALUE;
+        int secondMax = Integer.MIN_VALUE;
 
-         for( int j = 0; j < count && j < n; j++ ) {
-             int previousMax = max;
-             max = Integer.MIN_VALUE;
-             int index = 0;
-             for( int i = 0; i < n; i++ ) {
-                 if( arr[i] >= max ) {
-                     max = arr[i];
-                     index = i;
-                 }
-             }
-             arr[index] = Integer.MIN_VALUE;
-             if( previousMax == max ) {
-                 count++;
-             }
-         }
 
-         if( count >= n || n <= 1 ) {
-             return Integer.MIN_VALUE;
-         } else {
-             return max;
-         }
+        for( int i = 0; i < n; i++ ) {
+            if( arr[i] > max ) {
+                secondMax = max;
+                max = arr[i];
+            } else if( arr[i] > secondMax && arr[i] != max) {
+                secondMax = arr[i];
+            }
+        }
 
-    	
+        return secondMax;
     }   
 	
 	public static void main(String[] args) {

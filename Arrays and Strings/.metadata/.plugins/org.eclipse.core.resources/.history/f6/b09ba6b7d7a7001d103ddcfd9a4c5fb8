@@ -2,7 +2,7 @@ package arraysAdvanced;
 
 import java.util.Scanner;
 
-public class SecondLargestInArray_Alternative {
+public class SumOfTwoArrays {
 	
 	public static int[] takeInput() {
 //		Taking Input n from the user
@@ -20,22 +20,25 @@ public class SecondLargestInArray_Alternative {
 		return arr;
 	}
 	
-    public static int secondLargest(int[] arr) {
-        int n = arr.length;
-        int max = Integer.MIN_VALUE;
-        int secondMax = Integer.MIN_VALUE;
+	public static void printArray(int[] arr) {
+		int n = arr.length;
+//		Printing the elements of an array
+		for( int i = 0; i < n; i++ ) {
+			System.out.print(arr[i] + " ");	
+		}
+		System.out.println();
+	}
+	
+    public static void rotateArray(int[] arr, int d) {
+    	int n = arr.length;
 
-
-        for( int i = 0; i < n; i++ ) {
-            if( arr[i] > max ) {
-                secondMax = max;
-                max = arr[i];
-            } else if( arr[i] > secondMax && arr[i] != max) {
-                secondMax = arr[i];
+        for( int i = 0; i < d; i++ ) {
+            int temp = arr[0];
+            for( int j = 1; j < n; j++ ) {
+                arr[j-1] = arr[j];
             }
+            arr[n-1] = temp;
         }
-
-        return secondMax;
     }   
 	
 	public static void main(String[] args) {
@@ -46,8 +49,9 @@ public class SecondLargestInArray_Alternative {
 		
 		while( t > 0 ) {
 			int arr[] = takeInput();
-			int secLar = secondLargest(arr);
-			System.out.println(secLar);
+			int d = scanner.nextInt();
+			rotateArray(arr, d);
+			printArray(arr);
 			t--;
 		}
 		
