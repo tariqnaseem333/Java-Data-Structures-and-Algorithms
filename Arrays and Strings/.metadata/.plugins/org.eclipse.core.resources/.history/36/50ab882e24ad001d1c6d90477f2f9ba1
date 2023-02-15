@@ -26,12 +26,10 @@ public class PrimitiveAndNonPrimitives {
 
 	public static void main(String[] args) {
 		
-//		Primitive Data Type: Pass By Value
 //		int i = 10;
 //		increment(i);
 //		System.out.println(i);
 		
-//		Non Primitive Date Type: Pass By Value
 		int[] arr = { 1, 2, 3, 4, 5 };
 		System.out.println(arr);
 		incrementArray(arr);
