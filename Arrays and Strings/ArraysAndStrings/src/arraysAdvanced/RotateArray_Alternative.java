@@ -35,7 +35,7 @@ public class RotateArray_Alternative {
 		arr[end] = temp;
 	}
 
-	private static void reverse(int[] arr, int start, int end){
+	private static void reverseArray(int[] arr, int start, int end){
 		while(start < end) {
 			swapElements(arr, start, end);
 			start += 1;
@@ -44,15 +44,19 @@ public class RotateArray_Alternative {
 	}
 
 	public static void rotateArray(int[] arr, int d) {
-		if (arr.length == 0) {
-			return;
-		}
-		if (d >= arr.length && arr.length != 0) {
-			d %= arr.length;
-		}
-		reverse(arr, 0, arr.length - 1);
-		reverse(arr, 0, arr.length - d - 1);
-		reverse(arr, arr.length - d, arr.length - 1);
+	  	int n = arr.length;
+
+        if( n == 0 ) {
+            return;
+        }
+
+        if( d >= n ) {
+            d = d%n;
+        }
+
+        reverseArray( arr, 0, n-1 );
+        reverseArray(arr, 0, n-d-1);
+        reverseArray(arr, n-d, n-1);
 	}   
 
 	public static void main(String[] args) {

@@ -37,8 +37,8 @@ public class RotateArray_Alternative2 {
             arr2[i] = arr[i];
         }  
 
-        for( int j = d; j < n; j++ ) {
-            arr[j-d] = arr[j];
+        for( int j = 0; j < (n-d); j++ ) {
+            arr[j] = arr[j+d];
         }
 
         int a = 0;
