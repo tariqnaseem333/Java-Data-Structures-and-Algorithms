@@ -1,0 +1,27 @@
+package strings;
+
+public class IntroductionToStrings {
+
+	public static void main(String[] args) {
+		
+//		Ist way of storing collection of characters
+		char arr[] = { 'C', 'o', 'd', 'i', 'n', 'g' };
+		
+//		2nd way of storing collection of characters using String
+		String str = "Coding";
+		
+//		For finding length of String
+		System.out.println( str.length() );
+		
+//		For accessing a perticular character
+		System.out.println( str.charAt(2) );
+		
+//		For creating empty string
+		String str2 = "";
+		System.out.println( str2.length() );
+		
+//		
+
+	}
+
+}
