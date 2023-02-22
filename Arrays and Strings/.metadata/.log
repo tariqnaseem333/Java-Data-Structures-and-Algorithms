@@ -8754,3 +8754,45 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:15:13.045
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WMaHSJDq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:14.866
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:14.866
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7f520b7c[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=976)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:14.867
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.500
+!MESSAGE Boot LS startup time from start to initialized: 1632ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.597
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.isVAprMUisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.598
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.599
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.600
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.601
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.602
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.isVAprMU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.602
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.603
+!MESSAGE buffering callback sts4.classpath.isVAprMU ArraysAndStrings false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.604
+!MESSAGE executing callback sts4.classpath.isVAprMU 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-23 01:19:16.823
+!MESSAGE executing callback sts4.classpath.isVAprMU SUCCESS [done]
