@@ -1,0 +1,42 @@
+package strings;
+
+import java.util.Scanner;
+
+public class CheckPalindromeOfString {
+	
+	public static boolean checkPalindrome( String str ) {
+		boolean isPalindrome = false;
+		int n = str.length();
+		
+		int length = 0;
+		if( n%2 == 0 ) {
+			length = n/2;
+		} else {
+			length = n/2 + 1;
+		}
+		
+		for( int i = 0; i < length; i++ ) {
+			if( str.charAt(i) == str.charAt(n-i-1) ) {
+				isPalindrome = true;
+			} else {
+				isPalindrome = false;
+				break;
+			}
+		}
+		
+		
+		
+		
+		return isPalindrome;
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		String str = scanner.nextLine();
+		String revStr = checkPalindrome(str);
+		System.out.println(revStr);
+
+	}
+
+}
