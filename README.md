@@ -45,3 +45,13 @@ Problem: Second Largest Element in an Array\
 Problem: Check Array Rotation\
 Problem: Sort 0 1 2\
 Problem: Sum of Two Arrays
+
+## Day-6: String Basics
+1.) Introduction to Strings\
+2.) More Function on Strings\
+3.) String Substring Function\
+4.) Taking String Input\
+Problem: Print all Characters of a String\
+Problem: Count words in a String\
+Problem: Reverse the given Input String\
+Problem: Check String Palindrome
