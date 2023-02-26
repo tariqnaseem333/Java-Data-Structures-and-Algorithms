@@ -10257,3 +10257,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.869
 !MESSAGE executing callback sts4.classpath.VCJjtKAz SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 16:06:55.383
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VCJjtKAz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 16:06:55.387
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.VCJjtKAz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 16:06:55.387
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 16:06:55.388
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VCJjtKAz => OK

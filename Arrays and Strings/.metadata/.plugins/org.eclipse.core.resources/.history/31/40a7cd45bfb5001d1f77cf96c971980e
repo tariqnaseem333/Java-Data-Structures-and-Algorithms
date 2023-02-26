@@ -19,7 +19,7 @@ public class AllSubstringsOfString_Alternative {
 		for( int i = 1; i <= n; i++ ) {
 //			Printing all substrings with length = i
 			for( int j = 0; j < n-i+1; j++ ) {
-				String str1 = str.substring(j, i+j);
+				String str1 = str.substring(j, i+j-1);
 				System.out.println(str1);
 			}
 		}

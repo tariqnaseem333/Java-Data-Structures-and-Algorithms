@@ -8,7 +8,6 @@ public class AllSubstringsOfString {
 		int n = str.length();
 
 		for( int i = 0; i < n; i++ ) {
-//			Printing all substrings starting i
 			for( int j =i+1; j <= n; j++ ) {
 				String str1 = str.substring(i, j);
 				System.out.print(str1 + " ");

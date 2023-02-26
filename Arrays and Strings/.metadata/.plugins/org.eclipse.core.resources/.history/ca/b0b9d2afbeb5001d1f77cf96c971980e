@@ -2,19 +2,20 @@ package strings;
 
 import java.util.Scanner;
 
-public class AllSubstringsOfString {
-	
+public class AllSubstringsOfString_Alternative {
+
 	public static void printSubstrings(String str) {
 		int n = str.length();
 
 		for( int i = 0; i < n; i++ ) {
-//			Printing all substrings starting i
-			for( int j =i+1; j <= n; j++ ) {
-				String str1 = str.substring(i, j);
-				System.out.print(str1 + " ");
+			int p = 0;
+			for( int j = i+1; j <= n; j++ ) {
+				String str1 = str.substring(p, j);
+				System.out.println(str1);
+				p++;
 			}
-			System.out.println();
 		}
+		
 	}
 
 	public static void main(String[] args) {
@@ -24,5 +25,6 @@ public class AllSubstringsOfString {
 		printSubstrings(str);
 
 	}
+
 
 }
