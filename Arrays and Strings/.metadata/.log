@@ -10215,3 +10215,45 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:20:44.951
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ncQPmnJo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:40.966
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:40.966
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@612182cf[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=976)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:40.967
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.544
+!MESSAGE Boot LS startup time from start to initialized: 1576ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.636
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VCJjtKAzisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.637
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.638
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.638
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.639
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.639
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VCJjtKAz => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.640
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.640
+!MESSAGE buffering callback sts4.classpath.VCJjtKAz ArraysAndStrings false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.641
+!MESSAGE executing callback sts4.classpath.VCJjtKAz 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-26 15:25:42.869
+!MESSAGE executing callback sts4.classpath.VCJjtKAz SUCCESS [done]
