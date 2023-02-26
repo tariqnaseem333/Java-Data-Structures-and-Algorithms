@@ -1,0 +1,23 @@
+package strings;
+
+import java.util.Scanner;
+
+public class AllSubstringsOfString_Alternative {
+
+	public static void printSubstrings(String str) {
+		int n = str.length();
+
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		String str = scanner.nextLine();
+		printSubstrings(str);
+
+	}
+
+
+}

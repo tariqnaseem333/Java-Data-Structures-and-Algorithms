@@ -1,0 +1,34 @@
+package strings;
+
+public class AllSubstringsOfString {
+	
+	public static void printSubstrings(String str) {
+		int n = str.length();
+
+		for( int i = 0; i < n; i++ ) {
+			for( int j =i+1; j <= n; j++ ) {
+				String str1 = str.substring(i, j);
+				System.out.println(str1);
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		String str = "pqrs";
+		int n = str.length();
+//		String str1;
+
+		for( int i = 0; i < n; i++ ) {
+			for( int j = i+1; j <= n; j++ ) {
+				String str1 = str.substring(i, j);
+				System.out.println(str1);
+			}
+		}
+		
+//		String str1 = "pqrs";
+//		System.out.println(str1.substring(0, 4));
+
+	}
+
+}

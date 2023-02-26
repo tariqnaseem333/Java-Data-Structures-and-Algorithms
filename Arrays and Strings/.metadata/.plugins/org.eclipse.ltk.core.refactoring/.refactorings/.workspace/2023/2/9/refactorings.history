@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/ArraysAndStrings/src/strings/AllSubstringsOfString_Alternative.java" element2="/ArraysAndStrings/src/strings/AllSubstringsOfString.java" element3="/ArraysAndStrings/src/strings/StringComparison.java" element4="/ArraysAndStrings/src/strings/StringsImmutabliity.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1677404933833"/>
+</session>

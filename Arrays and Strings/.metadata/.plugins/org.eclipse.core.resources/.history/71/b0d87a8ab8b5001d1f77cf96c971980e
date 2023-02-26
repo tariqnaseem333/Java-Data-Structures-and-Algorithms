@@ -1,0 +1,28 @@
+package strings;
+
+import java.util.Scanner;
+
+public class AllSubstringsOfString_Alternative {
+
+	public static void printSubstrings(String str) {
+		int n = str.length();
+
+		for( int i = 0; i < n; i++ ) {
+			for( int j = 0; j < n-i; j++ ) {
+				String str1 = str.substring(j, i);
+				System.out.println(str1);
+			}
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		String str = scanner.nextLine();
+		printSubstrings(str);
+
+	}
+
+
+}
