@@ -1,0 +1,34 @@
+package strings;
+
+public class ReverseEachWordOfString_Alternative {
+	
+	public static String reverseEachWord(String input) {
+		int n = input.length();
+
+		int currentWordStart = 0;
+		String ans = "";
+		for( int i = 0; i < n; i++ ) {
+			if( input.charAt(i) == ' ' ) {
+				int currentWordEnd = i - 1;
+				String revCurrentWord = "";
+				for( int j = currentWordStart; j < currentWordEnd; j++ ) {
+					revCurrentWord = input.charAt(i) + revCurrentWord;
+				}
+				ans = ans + revCurrentWord + " ";
+				currentWordStart = i + 1;
+			} 
+			
+		}
+		return ans;
+
+	}
+
+	public static void main(String[] args) {
+		
+		String input = "abc def ghi";
+		String revStr = reverseEachWord(input);
+		System.out.println(revStr);
+
+	}
+
+}

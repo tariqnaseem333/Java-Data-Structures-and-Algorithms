@@ -1,0 +1,21 @@
+package strings;
+
+public class StringBufferVsString {
+
+	public static void main(String[] args) {
+		
+		StringBuffer str = new StringBuffer("abc");
+		
+//		StringBuffer is mutable which means that you can
+//		add remove or change value of chars in String
+		str.setCharAt(1, 'g');
+		System.out.println(str);
+		
+//		You can add chars at the end of String
+		str.append("def");
+		System.out.println(str);
+		
+
+	}
+
+}
