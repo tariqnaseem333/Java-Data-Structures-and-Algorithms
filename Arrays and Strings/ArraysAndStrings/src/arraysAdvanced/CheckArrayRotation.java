@@ -38,6 +38,8 @@ public class CheckArrayRotation {
 	
 	public static void main(String[] args) {
 		
+//		Array is rotated in right hand direction
+		
 //		Taking input t test cases
 		Scanner scanner = new Scanner(System.in);
 		int t = scanner.nextInt();

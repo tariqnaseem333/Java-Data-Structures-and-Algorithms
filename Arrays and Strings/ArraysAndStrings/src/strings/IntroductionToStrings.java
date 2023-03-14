@@ -13,7 +13,7 @@ public class IntroductionToStrings {
 //		For finding length of String
 		System.out.println( str1.length() );
 		
-//		For accessing a perticular character
+//		For accessing a particular character
 		System.out.println( str1.charAt(2) );
 		
 //		For creating empty string

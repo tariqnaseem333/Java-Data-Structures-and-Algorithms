@@ -21,16 +21,16 @@ public class StringComparison {
 		String str1 = "abc";
 		String str2 = "abc";
 		String str3 = new String("abc");
-//		if( str1 == str2 ) {
-//			System.out.println("Both are equal");
-//		} else {
-//			System.out.println("They are not equal");
-//		}
-//		if( str1 == str3 ) {
-//			System.out.println("Both are equal");
-//		} else {
-//			System.out.println("They are not equal");
-//		}
+		if( str1 == str2 ) {
+			System.out.println("Both are equal");
+		} else {
+			System.out.println("They are not equal");
+		}
+		if( str1 == str3 ) {
+			System.out.println("Both are equal");
+		} else {
+			System.out.println("They are not equal");
+		}
 //		It will compare the string's content
 		if( str1.equals(str3) ) {
 			System.out.println("Both are equal");
@@ -38,9 +38,6 @@ public class StringComparison {
 			System.out.println("They are not equal");
 		}
 		
-		
-		
-
 	}
 
 }

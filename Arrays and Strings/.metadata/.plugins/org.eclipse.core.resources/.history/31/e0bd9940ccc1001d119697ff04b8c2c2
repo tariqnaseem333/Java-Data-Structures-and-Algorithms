@@ -48,7 +48,7 @@ public class SelectionSort_Alternative {
 			}
 			temp = arr[minIndex];
 			arr[minIndex] = arr[i];
-			arr[i] = temp;
+			arr[i] = min;
 		}
 
 	}   

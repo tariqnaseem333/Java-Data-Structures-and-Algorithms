@@ -8,19 +8,20 @@ public class StringInput {
 		
 		Scanner s = new Scanner(System.in);
 		
-		String str;
+//		String str;
 //		str = s.next();
 //		System.out.println( str + " " + str.length() );
 //		String str2 = s.nextLine();
 //		System.out.println( str2 + " " + str2.length() );
 		
-		int i = s.nextInt();
-		System.out.println( i + " " );
-		String str2 = s.nextLine();
-		System.out.println( str2 + " " + str2.length() );
+//		int i = s.nextInt();
+//		System.out.println( i + " " );
+//		String str2 = s.nextLine();
+//		System.out.println( str2 + " " + str2.length() );
 		
-//		str = s.nextLine();
-//		System.out.println( str + " " + str.length() );
+		String str;
+		str = s.nextLine();
+		System.out.println( str + " " + str.length() );
 
 	}
 

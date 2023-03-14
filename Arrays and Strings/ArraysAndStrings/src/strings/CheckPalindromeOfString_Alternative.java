@@ -18,6 +18,7 @@ public class CheckPalindromeOfString_Alternative {
 				isPalindrome = true;
 			} else {
 				isPalindrome = false;
+				break;
 			}
 			start++;
 			end--;

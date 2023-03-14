@@ -15,8 +15,8 @@ public class SubStringMethod {
 		String substr2 = strF.substring(1,6);
 		System.out.println( substr2 );
 //		It will give error
-//		String substr3 = strF.substring(5,1);
-//		System.out.println( substr3 );
+		String substr3 = strF.substring(1,1);
+		System.out.println( substr3 );
 
 	}
 

@@ -4,7 +4,7 @@ public class UnderstandingStringsStorage {
 
 	public static void main(String[] args) {
 		
-//		A new Strong "Hello" will be created in String Pool
+//		A new String "Hello" will be created in String Pool
 		String str = "Hello";
 //		It will check if "Hello" is already there in String Pool
 //		If yes, then refer to that else create new "Hello" in String Pool
