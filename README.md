@@ -55,3 +55,12 @@ Problem: Print all Characters of a String\
 Problem: Count words in a String\
 Problem: Reverse the given Input String\
 Problem: Check String Palindrome
+
+## Day-7: String Basics
+1.) How String are Stored in Java\
+2.) Strings Immutability\
+3.) String Comparison\
+4.) String vs StringBuffer\
+Problem: Print all Substrings of a String\
+Problem: Reverse Each Word of a String\
+Problem: Reverse String Wordwise\
