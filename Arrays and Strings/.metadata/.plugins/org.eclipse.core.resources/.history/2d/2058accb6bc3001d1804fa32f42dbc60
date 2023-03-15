@@ -30,8 +30,7 @@ public class StringInput {
 		for(int i = 0; i < cArray.length; i++ ) {
 			System.out.println(cArray[i]);
 		}
-		
-		
+
 	}
 
 }
