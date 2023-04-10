@@ -14,20 +14,20 @@
 8.) How Non-Primitive Data Types (Arrays) passed into functions
 
 ## Day-3: Array Basics Problems
-Problem: Calculating sum of elements of an Array\
-Problem: Finding the largest element in an Array\
-Problem: Linear Search for an Element in an Array\
-Problem: Arrange numbers in an Array\
-Problem: Print all the pairs of an array\
-Problem: Swap Alternate Elements of an Array
+**Problem**: Calculating sum of elements of an Array\
+**Problem**: Finding the largest element in an Array\
+**Problem**: Linear Search for an Element in an Array\
+**Problem**: Arrange numbers in an Array\
+**Problem**: Print all the pairs of an array\
+**Problem**: Swap Alternate Elements of an Array
 
 ## Day-4: Array Basics Problems
-Problem: Find Unique Element in Array\
-Problem: Find Duplicate Element in Array\
-Problem: Intersection of Two Arrays\
-Problem: Pair Sum\
-Problem: Triplet Sum\
-Problem: Sort Binary Array
+**Problem**: Find Unique Element in Array\
+**Problem**: Find Duplicate Element in Array\
+**Problem**: Intersection of Two Arrays\
+**Problem**: Pair Sum\
+**Problem**: Triplet Sum\
+**Problem**: Sort Binary Array
 
 ## Day-5: Array Algorithms
 1.) Binary Search Algorithm\
@@ -39,28 +39,28 @@ Problem: Sort Binary Array
 3.) Merge Sort Algorithm
 
 ## Day-7: Array Algorithms Problems
-Problem: Push Zeros to End of Array\
-Problem: Rotate Array\
-Problem: Second Largest Element in an Array\
-Problem: Check Array Rotation\
-Problem: Sort 0 1 2\
-Problem: Sum of Two Arrays
+**Problem**: Push Zeros to End of Array\
+**Problem**: Rotate Array\
+**Problem**: Second Largest Element in an Array\
+**Problem**: Check Array Rotation\
+**Problem**: Sort 0 1 2\
+**Problem**: Sum of Two Arrays
 
-## Day-6: String Basics
+## Day-8: String Basics
 1.) Introduction to Strings\
 2.) More Function on Strings\
 3.) String Substring Function\
 4.) Taking String Input\
-Problem: Print all Characters of a String\
-Problem: Count words in a String\
-Problem: Reverse the given Input String\
-Problem: Check String Palindrome
+**Problem**: Print all Characters of a String\
+**Problem**: Count words in a String\
+**Problem**: Reverse the given Input String\
+**Problem**: Check String Palindrome
 
-## Day-7: String Basics
+## Day-9: String Basics
 1.) How String are Stored in Java\
 2.) Strings Immutability\
 3.) String Comparison\
 4.) String vs StringBuffer\
-Problem: Print all Substrings of a String\
-Problem: Reverse Each Word of a String\
-Problem: Reverse String Wordwise\
+**Problem**: Print all Substrings of a String\
+**Problem**: Reverse Each Word of a String\
+**Problem**: Reverse String Wordwise\
