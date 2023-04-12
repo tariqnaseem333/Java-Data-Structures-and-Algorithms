@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;ArraysAndStrings&apos;&#x0D;&#x0A;- Original project: &apos;ArraysAndStrings&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     strings.ReverseStringWordWise_Alternative.java&#x0D;&#x0A;     strings.ReverseStringWordWise.java" description="Delete elements" element1="/src&lt;strings{ReverseStringWordWise_Alternative.java" element2="/src&lt;strings{ReverseStringWordWise.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1681295369839" subPackages="false" version="1.0"/>
+</session>

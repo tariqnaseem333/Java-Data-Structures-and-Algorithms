@@ -15,7 +15,6 @@ public class ArrayElementSum {
 		
 //		Storing elements in the array
 		for( int i = 0; i < n; i++ ) {
-			System.out.println("Enter Element at " + i + "th index");
 			arr[i] = scanner.nextInt();
 		}
 		return arr;

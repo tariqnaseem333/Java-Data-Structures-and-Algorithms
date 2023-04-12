@@ -12,17 +12,18 @@ public class BasicsOfArrays {
 		System.out.println(arr[0]);
 		System.out.println(arr[5]);
 		
-//		arr[-1] = 8;
-//		arr[10] = 13;
-		
-		System.out.println(arr[7]);
-		
-		
-		char[] cArray = new char[10];
-		double[] dArray = new double[10];
-		
-		System.out.println(cArray[0]);
-		System.out.println(dArray[0]);
+		arr[-1] = 8;
+		arr[10] = 13;
+	
+////		
+//		System.out.println(arr[7]);
+//		
+//		
+//		char[] cArray = new char[10];
+//		double[] dArray = new double[10];
+//		
+//		System.out.println(cArray[0]);
+//		System.out.println(dArray[0]);
 
 	}
 
