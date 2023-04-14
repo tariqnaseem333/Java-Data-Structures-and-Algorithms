@@ -38,9 +38,7 @@ public class CheckArrayRotation {
 	
 	public static void main(String[] args) {
 		
-//		It has been sorted(in increasing order) and
-//		then rotated by some number 'K' (K is greater than 0)
-//		in the right hand direction.
+//		Array is rotated in right hand direction
 		
 //		Taking input t test cases
 		Scanner scanner = new Scanner(System.in);
