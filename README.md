@@ -67,5 +67,5 @@
 ## Day-11: String Basics
 **Problem**: Print all Substrings of a String\
 **Problem**: Reverse Each Word of a String\
-**Problem**: Reverse String Wordwise
+**Problem**: Reverse String Wordwise\
 **Problem**: Check Permutation
