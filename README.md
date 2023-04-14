@@ -42,11 +42,13 @@
 **Problem**: Push Zeros to End of Array\
 **Problem**: Rotate Array\
 **Problem**: Second Largest Element in an Array\
+
+## Day-8: Array Algorithms Problems
 **Problem**: Check Array Rotation\
 **Problem**: Sort 0 1 2\
 **Problem**: Sum of Two Arrays
 
-## Day-8: String Basics
+## Day-9: String Basics
 1.) Introduction to Strings\
 2.) More Function on Strings\
 3.) String Substring Function\
@@ -56,11 +58,14 @@
 **Problem**: Reverse the given Input String\
 **Problem**: Check String Palindrome
 
-## Day-9: String Basics
+## Day-10: String Basics
 1.) How String are Stored in Java\
 2.) Strings Immutability\
 3.) String Comparison\
 4.) String vs StringBuffer\
+
+## Day-11: String Basics
 **Problem**: Print all Substrings of a String\
 **Problem**: Reverse Each Word of a String\
 **Problem**: Reverse String Wordwise
+**Problem**: Check Permutation
